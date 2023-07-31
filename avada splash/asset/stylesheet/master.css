@@ -100,6 +100,7 @@ main > section > div > a {
   letter-spacing: 4px;
   background-color: #ddac6a;
   transition: 0.4s ease-in-out;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
 }
 main > section > div > a:hover {
   background-color: #b68b52;
