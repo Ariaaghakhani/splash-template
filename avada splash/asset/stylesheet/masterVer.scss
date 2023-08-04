@@ -1,0 +1,221 @@
+/* 
+radial-gradient(circle at center top, hsla(calc(255 - 22),calc(8% + 16%),60%,100%) 0%,rgba(0,0,0,0) 76%)
+*/
+
+
+$colGold: #b68b52;
+$colHov: #ddac6a;
+$colGry: #9490a0;
+$border: 1px solid red;
+
+
+html {
+    background-color: #000;
+
+}
+
+main {
+    // border: $border;
+    width: 100%;
+    
+    background: radial-gradient(circle at center top, rgb(129, 134, 177) 0%, rgba(0, 0, 0, 0) 76%), url("../img/back-ver.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    justify-content: center;
+    align-items: start;
+
+    >figure {
+        // border: $border;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 146px;
+
+        >a {
+            // border: $border;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            width: 100%;
+
+            >img {
+                justify-content: center;
+                align-items: end;
+                width: 13.25%;
+            }
+        }
+    }
+
+    >h1 {
+        // border: $border;
+        display: flex;
+        width: 100%;
+        font-size: 80px;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: -2px;
+        margin: 60px auto 0 auto;
+        text-align: center;
+        line-height: 80px;
+        justify-content: center;
+        padding: 0 30%;
+    }
+
+
+    >h4 {
+        // border:$border;
+        width: 100%;
+        display: flex;
+        margin: 30px auto;
+        color: rgb(218, 217, 215);
+        justify-content: center;
+        font-size: 16px;
+        font-family: Oxygen, Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-align: center;
+        padding: 0px 28%;
+    }
+
+    >div {
+        display: flex;
+        // border: $border;
+        width: 100%;
+        padding: 0px 28%;
+        justify-content: space-between;
+        height: 45px;
+        margin-top: 25px;
+        >input{
+            // border: $border;
+            display: flex;
+            width: 74%;
+            &::placeholder {
+                font-size: 13px;
+                padding-left: 10px;
+                color: rgb(148, 144, 160);
+                font-family: Oxygen, Arial, Helvetica, sans-serif;
+            }
+        }
+        >a{
+            //  border: $border;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: 22%;
+             background-color: $colHov;
+             transition: .2s ease-in-out;
+             text-transform: uppercase;
+             color: #fff;
+             letter-spacing: 3px;
+             font-size: 14px;
+             font-family: Oxygen, Arial, Helvetica, sans-serif;
+
+             &:hover {
+                 background-color: $colGold;
+                 transition: .2s ease-in-out;
+             }
+        }
+    }
+
+    >section {
+        
+        width: 100%;
+        // border: $border;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        // padding: 0 30%;
+
+        >p {
+            // border: $border;
+            display: flex;
+            width: 100%;
+            color: rgb(218, 217, 215);
+            font-size: 16px;
+            font-weight: 400;
+            font-family: Oxygen, Arial, Helvetica, sans-serif;
+            justify-content: center;
+            padding: 0px 30%;
+            padding-top: 55px;
+            letter-spacing: 1px;
+
+        }
+
+        >div {
+            // border: $border;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px auto;
+            // height: 100%;
+            padding: 20px 44%;
+
+            >span {
+                width: 100%;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                >a{
+                    color: $colHov;
+                    transition: .2s ease-in-out;
+                    >i{
+                        font-size: 20px;
+                    }
+                    &:hover{
+                        color:$colGold;
+                        transition: .2s ease-in-out;
+                    }
+
+                }
+            }
+        }
+    }
+
+    >figure.foot {
+        // border: $border;
+        width: 75.5%;
+        margin: 0;padding: 0;
+        display: flex;
+        margin-top: 40px;
+        
+        >img {
+            display: flex;
+            width: 100%;
+            // object-fit: cover;
+        }
+    }
+
+    >footer {
+        width: 100%;
+        display: flex;
+        height: 60px;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        // padding-bottom: 0;
+
+        >p {
+            font-size: 11px;
+            color: $colGry;
+            // border: $border;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 1px;
+
+            >a {
+                color: $colGold;
+                margin: 0 5px;
+                transition: .4s ease-in-out;
+
+                &:hover {
+                    color: $colHov;
+                    transition: .4s ease-in-out;
+                }
+            }
+        }
+    }
+}

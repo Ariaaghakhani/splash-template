@@ -6,7 +6,6 @@
 
 body * {
   font-family: Oxygen, Arial, Helvetica, sans-serif;
-  font-family: Questrial, Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -20,4 +19,9 @@ li {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: 1s ease-in-out;
 }/*# sourceMappingURL=global.css.map */
