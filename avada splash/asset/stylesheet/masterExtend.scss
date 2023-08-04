@@ -735,9 +735,13 @@ main {
                 outline: none;
                 padding: 0 2%;
                 margin-bottom: 20px;
-                &:nth-last-of-type(1){
-                    height: 150px;
-                }
+            }
+            >textarea{
+                height: 150px;
+                border: none;
+                outline: none;
+                padding: 2% 2%;
+                margin-bottom: 20px;
             }
 
             >a {

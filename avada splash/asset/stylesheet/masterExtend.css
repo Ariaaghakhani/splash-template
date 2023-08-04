@@ -576,8 +576,12 @@ main .contact > div > input {
   padding: 0 2%;
   margin-bottom: 20px;
 }
-main .contact > div > input:nth-last-of-type(1) {
+main .contact > div > textarea {
   height: 150px;
+  border: none;
+  outline: none;
+  padding: 2% 2%;
+  margin-bottom: 20px;
 }
 main .contact > div > a {
   display: flex;
