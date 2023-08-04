@@ -1,0 +1,132 @@
+main {
+  width: 100%;
+  height: 180vh;
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+main > figure {
+  width: 100%;
+  display: flex;
+  margin: 0px auto;
+}
+main > figure > img {
+  width: 17.5%;
+  margin: 0px auto;
+}
+main > h1 {
+  display: flex;
+  width: 100%;
+  margin: 50px auto;
+  color: white;
+  justify-content: center;
+  font-size: 80px;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin-bottom: 0;
+}
+main > h3 {
+  display: flex;
+  width: 44%;
+  margin: 25px auto;
+  color: #9490a0;
+  justify-content: center;
+  font-size: 16px;
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+}
+main > section {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  padding: 0 7%;
+}
+main > section > div {
+  width: 30%;
+  margin: 100px auto;
+  display: flex;
+}
+main > section > div > h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+main > section > div > figure {
+  width: 384px;
+  height: 281px;
+  filter: grayscale(1);
+  opacity: 0.4;
+  box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+}
+main > section > div > figure:hover {
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+  filter: grayscale(0);
+}
+main > section > div > figure > a > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+main > section > div:nth-of-type(2) > figure {
+  width: 384px;
+  height: 485px;
+}
+main > section > div > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44%;
+  margin: 50px auto;
+  margin-bottom: 100px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4px;
+  background-color: #ddac6a;
+  transition: 0.4s ease-in-out;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+}
+main > section > div > a:hover {
+  background-color: #b68b52;
+  transition: 0.4s ease-in-out;
+}
+main > footer {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+main > footer > p {
+  font-size: 11px;
+  color: #9490a0;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+main > footer > p > a {
+  color: #b68b52;
+  margin: 0 5px;
+  transition: 0.4s ease-in-out;
+}
+main > footer > p > a:hover {
+  color: #ddac6a;
+  transition: 0.4s ease-in-out;
+}/*# sourceMappingURL=master.css.map */

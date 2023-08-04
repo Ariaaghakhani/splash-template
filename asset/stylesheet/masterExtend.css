@@ -1,0 +1,628 @@
+main {
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+main > header {
+  width: 100%;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main > header > div {
+  width: 100%;
+  background: hsl(227, 14%, 22%);
+  height: 50px;
+  display: flex;
+  padding: 0 12.25%;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+main > header > div > a {
+  color: #9490a0;
+  display: flex;
+  font-size: 13px;
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+main > header > div > a > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  font-weight: 500;
+  padding: 1px;
+  background-color: #ddac6a;
+  color: white;
+  border-radius: 4px;
+  margin-left: 5px;
+  padding: 3px 5px;
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+}
+main > header > nav {
+  width: 100%;
+  padding: 30px 12% 0 12%;
+  display: flex;
+  justify-content: space-between;
+}
+main > header > nav > figure {
+  display: flex;
+  width: 20%;
+}
+main > header > nav > figure > a {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+main > header > nav > figure > a > img {
+  display: flex;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main > header > nav > ul {
+  display: flex;
+  width: 32%;
+  justify-content: space-between;
+}
+main > header > nav > ul > li {
+  display: flex;
+}
+main > header > nav > ul > li > a {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ddac6a;
+  letter-spacing: 1px;
+  transition: 0.4s ease-in-out;
+}
+main > header > nav > ul > li > a:hover {
+  color: #b68b52;
+  transition: 0.4s ease-in-out;
+}
+main > header > h1 {
+  display: flex;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 25%;
+  margin-top: 110px;
+  line-height: 88px;
+}
+main > header > p {
+  width: 100%;
+  display: flex;
+  color: #9490a0;
+  margin: 0 auto;
+  padding: 0 26%;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  line-height: 24px;
+}
+main > header > figure {
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  margin: 70px auto 0 auto;
+}
+main > header > figure > img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .newsletter {
+  width: 100%;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 59px 25.25% 70px 25.25%;
+  box-shadow: 0 -50% 150px 5px rgba(0, 0, 0, 0.7);
+}
+main .newsletter > h3 {
+  width: 100%;
+  display: flex;
+  font-size: 35px;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  color: white;
+  letter-spacing: -2px;
+  font-weight: 300;
+  margin: 0 auto;
+  justify-content: center;
+}
+main .newsletter > h4 {
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  color: #9490a0;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 auto;
+  justify-content: center;
+}
+main .newsletter > div {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  height: 43px;
+  justify-content: space-between;
+}
+main .newsletter > div > input {
+  width: 74%;
+}
+main .newsletter > div > input::-moz-placeholder {
+  font-size: 13px;
+  padding-left: 10px;
+  color: rgb(148, 144, 160);
+}
+main .newsletter > div > input::placeholder {
+  font-size: 13px;
+  padding-left: 10px;
+  color: rgb(148, 144, 160);
+}
+main .newsletter > div > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22.5%;
+  background-color: #ddac6a;
+  transition: 0.2s ease-in-out;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+}
+main .newsletter > div > a:hover {
+  background-color: #b68b52;
+  transition: 0.2s ease-in-out;
+}
+main > article {
+  background-image: url(../img/Untitled\ design.png);
+  background-size: cover;
+  background-position-y: -90px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 19px 12.25%;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 110%, 50% 100%, 0% 110%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 110%, 50% 100%, 0% 110%);
+}
+main > article * {
+  width: 100%;
+  flex-wrap: wrap;
+}
+main > article * > h2 {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  color: rgb(57, 61, 76);
+  line-height: 66px;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+}
+main > article * > h3 {
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  color: rgb(57, 61, 76);
+  line-height: 50px;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+}
+main > article * > h4 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+  color: #9490a0;
+  margin: 32px 0;
+  line-height: 30px;
+}
+main > article * .iconText {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main > article * .iconText > div {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ddac6a;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+main > article * .iconText > div > i {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+}
+main > article * .iconText > span {
+  display: flex;
+  width: calc(100% - 40px);
+  align-items: start;
+  font-size: 18px;
+  font-weight: 700;
+  color: #9490a0;
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+main > article > .part1,
+main > article .part2 {
+  display: flex;
+  width: 100%;
+  margin: 70px auto;
+  justify-content: space-between;
+}
+main > article > .part1 > div,
+main > article .part2 > div {
+  width: 45%;
+}
+main > article > .part1 > figure,
+main > article .part2 > figure {
+  width: 48%;
+}
+main > article .part2 {
+  margin-bottom: 250px;
+}
+main .feat {
+  width: 100%;
+  background-image: url(../img/back-dark.jpg);
+  background-size: cover;
+  padding: 0 12%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+  top: -200px;
+  -webkit-clip-path: polygon(0 0, 50% 10%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+          clip-path: polygon(0 0, 50% 10%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+}
+main .feat * {
+  width: 100%;
+}
+main .feat > h2 {
+  display: flex;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+main .feat > h4 {
+  display: flex;
+  color: #9490a0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  justify-content: center;
+  text-align: center;
+  line-height: 24px;
+  padding: 0 20%;
+  margin-bottom: 100px;
+}
+main .feat > .grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-content: space-between;
+  padding-bottom: 200px;
+}
+main .feat > .grid > div {
+  display: flex;
+  padding: 20px 0;
+}
+main .feat > .grid > div:hover > span > i {
+  transition: 0.2s ease-in-out;
+  color: #ddac6a;
+}
+main .feat > .grid > div:hover > span {
+  transition: 0.2s ease-in-out;
+  border: 2px solid #ddac6a;
+}
+main .feat > .grid > div:hover > div {
+  transition: 0.2s ease-in-out;
+  color: #ddac6a;
+}
+main .feat > .grid > div > span {
+  border: 2px solid #9490a0;
+  display: flex;
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+  margin: 20px auto;
+  transition: 0.2s ease-in-out;
+}
+main .feat > .grid > div > span > i {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9490a0;
+  font-size: 44px;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+}
+main .feat > .grid > div > span > i:hover {
+  transition: 0.2s ease-in-out;
+  color: #b68b52;
+}
+main .feat > .grid > div > div {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: #9490a0;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+}
+main .price {
+  width: 100%;
+  background-image: url(../img/back-light.jpg);
+  background-size: cover;
+  padding-top: 220px;
+  position: relative;
+  top: -300px;
+  display: flex;
+}
+main .price > h2 {
+  display: flex;
+  width: 100%;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  margin: 0 auto;
+  justify-content: center;
+}
+main .price > p {
+  display: flex;
+  width: 100%;
+  color: #9490a0;
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  justify-content: center;
+  text-align: center;
+  padding: 0 27% 120px 27%;
+}
+main .price > div {
+  width: 100%;
+  padding: 0 12.25%;
+  display: flex;
+  justify-content: space-between;
+}
+main .price > div > .box1,
+main .price > div .box2 {
+  width: 48.25%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2.5% 2.5% 15px 2.5%;
+  margin-bottom: -60px;
+  box-shadow: 0 10px 50px 5px rgba(0, 0, 0, 0.3);
+}
+main .price > div > .box1 > span,
+main .price > div .box2 > span {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border-bottom: 8px dotted rgba(148, 144, 160, 0.3);
+}
+main .price > div > .box1 > span > h3,
+main .price > div .box2 > span > h3 {
+  display: flex;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: rgb(57, 61, 76);
+  letter-spacing: -2px;
+  line-height: 49.5px;
+  grid-row: 1/span 1;
+}
+main .price > div > .box1 > span > h2,
+main .price > div .box2 > span > h2 {
+  grid-row: 1/span 2;
+  color: #ddac6a;
+  display: flex;
+  flex-grow: 0;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -2px;
+  justify-content: end;
+  padding-right: 10px;
+}
+main .price > div > .box1 > span > p,
+main .price > div .box2 > span > p {
+  display: flex;
+  font-size: 13px;
+  font-weight: 400;
+  height: 14px;
+  color: #9490a0;
+  line-height: 14.3px;
+  grid-row: 2/span 1;
+}
+main .price > div > .box1 > div,
+main .price > div .box2 > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+main .price > div > .box1 > div > div,
+main .price > div .box2 > div > div {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ddac6a;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .price > div > .box1 > div > div > i,
+main .price > div .box2 > div > div > i {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: white;
+  font-weight: 700;
+}
+main .price > div > .box1 > div > span,
+main .price > div .box2 > div > span {
+  display: flex;
+  width: calc(100% - 40px);
+  align-items: start;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9490a0;
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+main .price > div > .box1 {
+  border-radius: 0 0 20px 20px;
+  position: relative;
+}
+main .price > div > .box1::before {
+  content: "RECOMMENDED PLAN";
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: #ddac6a;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+main .price > div > .box2 > div > div:nth-of-type(4) ~ div {
+  background-color: rgb(218, 217, 215);
+}
+main .price > div > .box2 > div > span:nth-of-type(4) ~ span {
+  opacity: 0.5;
+}
+main .contact {
+  width: 100%;
+  padding: 0 25%;
+}
+main .contact * {
+  width: 100%;
+}
+main .contact > h2 {
+  color: rgb(57, 61, 76);
+  font-family: Questrial, Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  justify-content: center;
+}
+main .contact > p {
+  color: #9490a0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+main .contact > div {
+  background-color: rgb(245, 245, 245);
+  padding: 50px 40px 60px 40px;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+main .contact > div > label {
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9490a0;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+main .contact > div > input {
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 2%;
+  margin-bottom: 20px;
+}
+main .contact > div > textarea {
+  height: 150px;
+  border: none;
+  outline: none;
+  padding: 2% 2%;
+  margin-bottom: 20px;
+}
+main .contact > div > a {
+  display: flex;
+  width: 200px;
+  height: 43px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-family: Oxygen, Arial, Helvetica, sans-serif;
+  background-color: #ddac6a;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.2s ease-in-out;
+  margin: 20px auto;
+}
+main .contact > div > a:hover {
+  background-color: #b68b52;
+  transition: 0.2s ease-in-out;
+}
+main > footer {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+main > footer > p {
+  font-size: 11px;
+  color: #9490a0;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+main > footer > p > a {
+  color: #b68b52;
+  margin: 0 5px;
+  transition: 0.4s ease-in-out;
+}
+main > footer > p > a:hover {
+  color: #ddac6a;
+  transition: 0.4s ease-in-out;
+}/*# sourceMappingURL=masterExtend.css.map */
