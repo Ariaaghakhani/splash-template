@@ -1,10 +1,10 @@
 # Splash Template :
 
 <p align="center">
-<img width="1200" alt="Screenshot 2023-11-10 at 16 16 38" src="https://github.com/Ariaaghakhani/OZ-STUDIO/assets/48532756/d5d15664-7a87-4bbd-aedb-e1a34b506f86">
-<img width="1200" alt="Screenshot 2023-11-10 at 16 17 03" src="https://github.com/Ariaaghakhani/OZ-STUDIO/assets/48532756/fa7b3cfe-c7be-4f9d-9773-f50a4fdf6be4">
-<img width="1200" alt="Screenshot 2023-11-10 at 16 17 09" src="https://github.com/Ariaaghakhani/OZ-STUDIO/assets/48532756/c4256de7-d1d4-4697-af72-1932c8d57330">
-<img width="800"  alt="Screenshot 2023-11-10 at 16 17 27" src="https://github.com/Ariaaghakhani/OZ-STUDIO/assets/48532756/d91c17af-77e5-493e-80cc-925f81485b14">
+<img width="1512" alt="Screenshot 2023-12-04 at 13 11 11" src="https://github.com/Ariaaghakhani/splash-template/assets/48532756/7e685584-3c94-479e-a1a9-3c3f557b96df">
+<img width="1512" alt="Screenshot 2023-12-04 at 13 11 23" src="https://github.com/Ariaaghakhani/splash-template/assets/48532756/95db1c06-23ed-4307-8381-3afc3a7be046">
+<img width="1512" alt="Screenshot 2023-12-04 at 13 11 32" src="https://github.com/Ariaaghakhani/splash-template/assets/48532756/b23e02a8-74c4-4aec-82e1-30fb6d7c5097">
+
 </p>
 
 
